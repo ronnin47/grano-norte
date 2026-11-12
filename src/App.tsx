@@ -5,6 +5,9 @@ const A = `${import.meta.env.BASE_URL}assets/`;
 
 type Page = "home" | "menu";
 
+
+
+
 const featured = [
   ["Iced Latte", "Espresso, leche y mucho hielo.", "$5100", "b30e2.svg"],
   ["Cappuccino", "Espuma cremosa y cacao opcional.", "$4700", "dfe0c.svg"],
