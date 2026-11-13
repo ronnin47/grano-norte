@@ -56,7 +56,6 @@
 
 .app-shell {
   min-height: 100dvh;
-  overflow-x: hidden;
 }
 
 .site-header {
