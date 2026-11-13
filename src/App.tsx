@@ -241,7 +241,7 @@ function Home({ onMenu, addProduct }: { onMenu: () => void; addProduct: () => vo
               "9283e.svg",
               "a2b8b.svg",
               "Pedí y retirá",
-              "Pedí y retirá — Encargá desde el celu y pasá a buscarlo sin fila.",
+              "Encargá desde el celu y pasá a buscarlo sin fila.",
             ],
           ].map(([icon, mobileIcon, title, text]) => (
             <article key={title}>
