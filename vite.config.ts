@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
     // a git pages
    // base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
     
-   base: '/grano-norte/',
+   base: mode === 'production' ? '/grano-norte/' : '/',
    build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
