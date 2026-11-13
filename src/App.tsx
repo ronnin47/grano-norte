@@ -74,7 +74,7 @@ function Header({
   return (
     <header className="site-header">
       <button className="logo-button" onClick={() => onNavigate("home")} aria-label="Ir al inicio">
-        <img src={`${A}af8fe.png`} alt="Grano Norte, café de especialidad" />
+        <img src={`${A}af8fe.svg`} alt="Grano Norte, café de especialidad" />
       </button>
       <nav className="desktop-nav" aria-label="Navegación principal">
         <button onClick={() => onNavigate("home")}>Inicio</button>
@@ -143,7 +143,7 @@ function MenuOverlay({
 function Footer() {
   return (
     <footer className="footer">
-      <img className="footer-logo" src={`${A}8c98b.png`} alt="Grano Norte" />
+      <img className="footer-logo" src={`${A}8c98b.svg`} alt="Grano Norte" />
       <div className="footer-columns">
         <div>
           <strong>LOCALES</strong>
@@ -328,8 +328,8 @@ function Home({ onMenu, addProduct }: { onMenu: () => void; addProduct: () => vo
         </section>
         <Newsletter />
         <section className="maps" aria-label="Nuestros locales">
-          <img src={`${A}7511a.png`} alt="Mapa de la sucursal Palermo" />
-          <img src={`${A}f35cb.png`} alt="Mapa de la sucursal Centro" />
+          <img src={`${A}7511a.svg`} alt="Mapa de la sucursal Palermo" />
+          <img src={`${A}f35cb.svg`} alt="Mapa de la sucursal Centro" />
         </section>
       </main>
       <Footer />
