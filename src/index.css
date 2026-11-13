@@ -127,7 +127,7 @@
   color: var(--sand);
   background:
     linear-gradient(90deg, rgb(43 26 18 / 50%), rgb(43 26 18 / 8%)),
-    url("./assets/hero.png") center / cover;
+    url("/grano-norte/assets/hero.png") center / cover;
 }
 
 .hero-content {
